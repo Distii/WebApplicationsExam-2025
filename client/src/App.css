@@ -1,0 +1,163 @@
+.navbar {
+    background-color: rgb(45, 49, 77);
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 1.8rem;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.title:hover {
+    color: #000000;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.loginForm {
+    background-color: rgba(0, 0, 0, 0.189);
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.btn.logIn {
+    font-size: 1.8rem;
+    border-radius: 50px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.btn.logIn:hover {
+    color: #06913b;
+    border-color: transparent;
+    background-color: transparent;
+
+}
+
+.btn.logOut {
+    font-size: 1.8rem;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.btn.logOut:hover {
+    color: #c20505;
+}
+
+.addPostBtn {
+    border-color: transparent;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 100px;
+    background-color: transparent;
+}
+
+.addPostBtn:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 49, 77);
+    border-color: transparent;
+}
+
+.addCommentBtn {
+    font-size: 1.5rem;
+    border-color: transparent;
+    background-color: transparent;
+    color: rgb(45, 49, 77);
+    height: 45px;
+    width: 50px;
+}
+
+.addCommentBtn:disabled {
+    font-size: 1.5rem;
+    background-color: rgb(45, 49, 77);
+    border-color: transparent;
+    height: 45px;
+    width: 50px;
+}
+
+.addCommentBtn:hover {
+    background-color: rgb(45, 49, 77);
+}
+
+.toggleComments {
+    color: rgb(45, 49, 77);
+    border-color: transparent;
+    height: 45px;
+    width: 50px;
+}
+
+.toggleComments:hover {
+    background-color: rgb(45, 49, 77);
+}
+
+.deleteBtn {
+    font-size: 1.5rem;
+    border-color: transparent;
+}
+
+.deleteBtn:hover {
+    font-size: 1.5rem;
+    background-color: #c20505;
+}
+
+.editBtn {
+    font-size: 1.5rem;
+    border-color: transparent;
+}
+
+.editBtn:hover {
+    font-size: 1.5rem;
+    background-color: gold;
+}
+
+.interesting {
+    font-size: 1.3rem;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.interesting:hover {
+    background-color: rgba(45, 49, 77, 0.55);
+}
+
+#interestingFlag {
+    color: rgb(45, 49, 77);
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.save-add-cancel-btn {
+    font-size: 1.8rem;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.pre-wrap {
+    white-space: pre-wrap;
+}
+
+.badge {
+    background-color: rgb(45, 49, 77);
+}
+
+.comment-table td {
+    background-color: #eeeeee;
+}
+
+.text-muted {
+    background-color: #eeeeee;
+}
+
+.newPostTitle {
+    color: white;
+    background-color: rgb(45, 49, 77);
+    border-radius: 10px;
+}
+
+.newPost {
+    background-color: rgba(0, 0, 0, 0.189);
+    border-radius: 10px;
+}
