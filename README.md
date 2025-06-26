@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/6EO6Vzam)
 # Exam #1: "Forum"
 ## Student: DI STASIO ENRICO 
 
@@ -222,3 +221,5 @@ Two DB files: `forum.db` (original database) and `forum copy.db` (copy used for 
 | u3@p.it    | Carol | pwd3                 | No    |
 | u4@p.it    | Dave  | pwd4                 | No    |
 | u5@p.it    | Erin  | pwd5                 | Yes   |
+
+### TOTP Secret: LXBSMDTMSP2I5XFXIYRGFVWSFI
