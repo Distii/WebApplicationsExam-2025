@@ -3,7 +3,8 @@
 
 Design and implementation of a web application to manage a forum where users can write posts and others can insert comments related to the posts. The application implements the following specifications:
 * A post is an item composed of a unique title (among all posts), an author, a non-empty text, an optional maximum number of comments (including zero) that can be appended to the post, and a publication timestamp. Additionally, a list of zero or more comments is associated with a post.
-* A comment is composed of a non-empty text, a publication timestamp, and, optionally, an associated author. Comments without an author are considered “anonymous comments”.\
+* A comment is composed of a non-empty text, a publication timestamp, and, optionally, an associated author. Comments without an author are considered “anonymous comments”.
+
 The text of both posts and comments can be multiline, i.e., newlines can be inserted when entering the text and such formatting (newlines) must be kept when visualizing such text. \
 When visualizing the list of posts and/or the list of comments associated with a post, in any view, they must always be listed in chronological order, from the most recent to the less recent one, according to the timestamp, which must be shown in the numeric format year-month-day hour:min:sec. Timestamps refer to the time of the permanent creation in the system (e.g., the info is entered in the database).\
 Initially, a generic (authenticated or not) visitor of the website can only see, regardless of its authentication status, a list of all posts showing their title, author, text, timestamp, the number of comments (of any type) currently associated with the post and the maximum allowed one for each post, but not the list of comments appended to each post, except for the anonymous comments.\
