@@ -1,4 +1,5 @@
 # Exam #1: "Forum"
+## Student: DI STASIO ENRICO 
 
 Design and implementation of a web application to manage a forum where users can write posts and others can insert comments related to the posts. The application implements the following specifications. 
 A post is an item composed of a unique title (among all posts), an author, a non-empty text, an optional maximum number of comments (including zero) that can be appended to the post, and a publication timestamp. Additionally, a list of zero or more comments is associated with a post.
@@ -17,7 +18,6 @@ An authenticated user can:
 
 A special category of users, named administrators, can, in addition to the previous operations, also delete anybody’s posts or comments, including anonymous ones, and edit the text of any comment, including anonymous ones. Such users, to be able to act as administrators, must authenticate using the 2FA procedure with a TOTP. Such a category of users can also choose to authenticate without using the 2FA procedure, thus acting as authenticated users with username/password only.
 
-## Student: DI STASIO ENRICO 
 ## React Client Application Routes
 
 - Route `/`: Home page which shows all the posts, the anonymous comments and the non-anonymous ones when logged-in.
